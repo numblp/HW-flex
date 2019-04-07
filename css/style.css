@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'misoregular';
+    src: url(../fonts/miso-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'misobold';
+    src: url(../fonts/miso-bold-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'misolight';
+    src: url(../fonts/miso-light-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.card {
+    width: 1200px;
+    background-color: #fdde7e;
+    margin: 0 auto;
+    padding: 100px 20px;
+    font-size: 0;
+}
+.card__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__list {
+    background-color: #fff;
+    text-align: center;
+    padding: 35px 100px;
+    border-radius: 4px;
+    margin: 0 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.card__list--price {
+    font-size: 70px;
+    color: #02995b;
+    font-family: 'misobold';
+    line-height: 1;
+    margin-bottom: 20px; 
+}
+
+.card__list--size {
+    font-size: 56px;
+    font-family: 'misoregular';
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.card__list--item {
+    margin-bottom: 25px;
+}
+
+.card__list--info {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;   
+}
+
+
+.card__list:hover {
+    height: 500px;
+    background-color: #fff;
+    text-align: center;
+    padding: 35px 100px;
+    border-radius: 4px;
+    margin: 0 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
